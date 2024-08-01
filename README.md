@@ -8,6 +8,11 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 Proyecto Desplegado (https://portafolio-valentinarh.vercel.app/)
 
 ## Secciones de mi sitio
+![Presentación](assets/readme/presentacion.png)
+![Habilidades](assets/readme/habilidades.png)
+![Proyectos](assets/readme/proyectos.png)
+![Testimonios](assets/readme/testimonios.png)
+![Contacto](assets/readme/Contacto.png)
 
 ## Tecnologías
 * HTML
