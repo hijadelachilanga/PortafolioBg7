@@ -42,7 +42,8 @@
 
     <main>
 
-        <section id="presentacion" class="container col-xxl-8 px-4 py-5"></section>
+        <section id="presentacion" class="container col-xxl-8 px-4 py-5">
+       <div>
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="https://www.servnet.mx/hs-fs/hubfs/imagenes%20art%20sept/05%20Codigo%20HTML%2C%20CSS%20y%20Javascript.png?width=900&name=05%20Codigo%20HTML%2C%20CSS%20y%20Javascript.png"
@@ -60,6 +61,7 @@
                 </div>
             </div>
         </div>
+       </div>
         </section>
 
         <section class="container px-4 py-5" id="habilidades">
@@ -105,9 +107,10 @@
                             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="mx-auto">
-                                    <a class="link-info" href="http://127.0.0.1:5500/clonGoogle/google.html" target="_blank" rel="noopener noreferrer">Da click aquí</a>
+                                    <a class="link-info" href="http://127.0.0.1:5500/clonGoogle/google.html"
+                                        target="_blank" rel="noopener noreferrer">Da click aquí</a>
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -119,9 +122,10 @@
                             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Intereses</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="mx-auto">
-                                    <a class="link-info" href="http://127.0.0.1:5500/misIntereses/Valentina.html" target="_blank" rel="noopener noreferrer">Da click aquí</a>
+                                    <a class="link-info" href="http://127.0.0.1:5500/misIntereses/Valentina.html"
+                                        target="_blank" rel="noopener noreferrer">Da click aquí</a>
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -131,7 +135,9 @@
         </section>
 
         <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <h2 class="container">Testimonios</h2>
+            <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
+
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                         aria-label="Slide 1"></button>
@@ -140,48 +146,36 @@
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
                         class=""></button>
                 </div>
+
                 <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
-                    </div>
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
+                        <article class="container py-4 text-center px-5">
+                            <img src="assets/tecnolochicas.jpg" height="200" alt="">
+                            <h2 class="my-3">Litzi Sánchez (Mentora en Tecnolochicas)</h2>
+                            <p class="my-3">Valentina ha demostrado ser una alumna responsable y muy creativa durante el curso. Su interés por aprender la motiva a mejorar con cada proyecto que realiza.</p>
+                        </article>
                     </div>
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
+
+                    
+                        <div class="carousel-item">
+                            <article class="container py-4 text-center px-5">
+                                <img src="assets/tecnolochicas.jpg" height="200" alt="">
+                                <h2 class="my-3">Miriam Hernández</h2>
+                                <p class="my-3">Valentina ha demostrado ser una alumna responsable y muy creativa durante el curso. Su interés por aprender la motiva a mejorar con cada proyecto que realiza.</p>
+                            </article>
                         </div>
-                    </div>
+
+                        
+                            <div class="carousel-item">
+                                <article class="container py-4 text-center px-5">
+                                    <img src="assets/tecnolochicas.jpg" height="200" alt="">
+                                    <h2 class="my-3">Ariadna Sánchez Vela</h2>
+                                    <p class="my-3">Valentina ha demostrado ser una alumna responsable y muy creativa durante el curso. Su interés por aprender la motiva a mejorar con cada proyecto que realiza.</p>
+                                </article>
+                            </div>
+
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>

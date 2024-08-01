@@ -1,5 +1,5 @@
 #proyecto-1{
-    background-image: url('google.png');
+    background-image: url('assets/google.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -12,7 +12,7 @@
 }
 
 #proyecto-2{
-    background-image: url('intereses.png');
+    background-image: url('assets/intereses.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;   
